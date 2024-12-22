@@ -54,7 +54,7 @@ app.get("/api/products/:id",async(req,res)=>{
 })
 
 app.delete("/api/products/:id",async(req,res)=>{
-
+const product = req.params 
 })
 
 mongoose.connect('mongodb+srv://quadribasit04:Quadri123%40%40%40@cluster0.s208b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
